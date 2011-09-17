@@ -1,6 +1,6 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    var disqus_shortname = '{{ m.config.mod_comment_disqus.disqus_shortname }}';
+    var disqus_shortname = '{{ m.config.mod_comment_disqus.disqus_shortname.value }}';
     var disqus_identifier = '{{ id }}';
     var disqus_url = '{{ resource_uri }}';
     (function() {
