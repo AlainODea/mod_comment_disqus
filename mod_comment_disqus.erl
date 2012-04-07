@@ -10,6 +10,6 @@
 -module(mod_comment_disqus).
 -author("Alain O'Dea <alain.odea@gmail.com>").
 
--mod_title("DISQUS").
+-mod_title("Comments (DISQUS)").
 -mod_description("Integration with the DISQUS comment service").
 
