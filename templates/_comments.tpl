@@ -2,7 +2,7 @@
 <script type="text/javascript">
     var disqus_shortname = '{{ m.config.mod_comment_disqus.disqus_shortname.value }}';
     var disqus_identifier = '{{ id }}';
-    var disqus_url = '{{ m.rsc[id].resource_uri }}';
+    var disqus_url = '{{ id.uri }}';
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
