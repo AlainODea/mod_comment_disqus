@@ -11,4 +11,3 @@ Usage
 * Under **Modules**, disable **Comments** (they don't coexist)
 * Under **Config**, make a new config setting with *Module* `mod_comment_disqus`,
 *Key* `disqus_shortname` and *Value* is your shortname from Disqus.
-
